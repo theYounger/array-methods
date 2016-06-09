@@ -61,3 +61,21 @@ var orderedValuesNewLength = orderedValues.unshift(1, 2, 3);
 
 //14 pass
 var randomThingsArray = genericNumberArray.concat(colors);
+
+//15 pass
+var updatedOrders =  orderQueue.concat({takeOut: 'ham'}, {takeOut: 'turkey sandwich'});
+
+//16 pass
+var sentence = scrambledWords.join(" ");
+
+//17 pass
+var myFruits = fruitCollection.join(" + ");
+
+//18 pass
+var favoriteFriends = friends.slice(1, 3);
+
+//19 pass
+var owesMoney = friends.slice(3, 6);
+
+//20 pass
+var monthNameString = monthNames.toString();
