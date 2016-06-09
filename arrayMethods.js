@@ -16,3 +16,22 @@ var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
+
+//1 pass
+var nameArray = [];
+nameArray.push('Kyle', 'Uyehara');
+
+//2 pass
+genericNumberArray.push(6, 7, 8, 9, 10);
+
+//3 pass
+colors.pop();
+
+//4 pass
+var popResult = colors.pop();
+
+//5 pass
+scrambledWords.reverse();
+
+//6 pass
+phoneNumber.reverse();
