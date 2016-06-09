@@ -5,6 +5,7 @@ var scrambledWords = ['win', 'the', 'for', 'burritos'];
 var phoneNumber = [9, 0, 3, 5, 7, 6, 8];
 var orderQueue = [{ takeOut: 'Ice Cream' }, { takeOut: 'Medium Salad'}, { takeOut: 'Burger'}];
 var mixedNums = [5, 81, 40, 4, 805, 10, 76, 21, 3, 2, 7, 1, 7];
+//1, 10, 2, 21, 3, 4, 40, 5, 7, 7, 76, 805, 81
 var mixedWords = ['Dont', 'You', 'Forget', 'About', 'Me'];
 var fruitCollection = ['Apple', 'Scissors', 'Pug', 'Lady Bug', 'Banana', 'Pear'];
 var gemBox = ['Ruby', 'Diamond', 'Diamond', 'Emerald', 'Moonstone', 'Pizza', 'Sneaker', 'Sapphire', 'Baby', 'Jeans', 'Soda Can', 'Boat'];
@@ -27,8 +28,19 @@ genericNumberArray.push(6, 7, 8, 9, 10);
 //3 pass
 var popResult = colors.pop();
 
-//5 pass
+//4 pass
 scrambledWords.reverse();
 
-//6 pass
+//5 pass
 phoneNumber.reverse();
+
+//6 pass
+var nextOrder = orderQueue.shift();
+
+//7 pass
+mixedNums.sort();
+
+//8 pass
+mixedWords.sort();
+
+//9 pass
