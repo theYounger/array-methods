@@ -79,3 +79,15 @@ var owesMoney = friends.slice(3, 6);
 
 //20 pass
 var monthNameString = monthNames.toString();
+
+//21 pass
+var favoriteColor = colors.indexOf("Red");
+
+//22 pass
+var favoriteEvenNumber = mixedNums.indexOf(76);
+
+//23 pass
+var lastNine = bulkNumbers.lastIndexOf(9);
+
+//24 pass
+var lastFive = bulkNumbers.lastIndexOf(5);
