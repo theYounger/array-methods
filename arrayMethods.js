@@ -25,9 +25,6 @@ nameArray.push('Kyle', 'Uyehara');
 genericNumberArray.push(6, 7, 8, 9, 10);
 
 //3 pass
-colors.pop();
-
-//4 pass
 var popResult = colors.pop();
 
 //5 pass
