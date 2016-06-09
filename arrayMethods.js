@@ -44,3 +44,7 @@ mixedNums.sort();
 mixedWords.sort();
 
 //9 pass
+var notFruit = fruitCollection.splice(1, 3);
+
+//10 pass
+
